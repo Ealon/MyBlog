@@ -19,8 +19,8 @@ highlight:
 
 # nav #
 nav:
-  home: .
-  archive: archives
+  HOME: .
+  ARCHIVE: archives
   # about: about
   # rss: atom.xml
 
@@ -37,7 +37,7 @@ default_post_title: Untitled
 social:
   github: https://github.com/Ealon
   # weibo: http://weibo.com/10010800
-  # mail: mailto:gallenhu@foxmail.com
+  mail: mailto:ealonhuang@gmail.com
   # twitter: https://twitter.com/GallenHu
 
 # widget
