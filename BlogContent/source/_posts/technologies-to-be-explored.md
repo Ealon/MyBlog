@@ -41,9 +41,7 @@ photos:
 * [Authentication in React Applications, Part 1: Creating Components](https://vladimirponomarev.com/blog/authentication-in-react-apps-creating-components)
 * [React Authentication is Easy with Auth0](https://davidwalsh.name/react-authentication)
 * [Griddle](https://github.com/GriddleGriddle/Griddle) - An ultra customizable datagrid component for React
-* [hexo-theme-Daily](https://github.com/GallenHu/hexo-theme-Daily)
-* [手把手教你使用Hexo + Github Pages搭建个人独立博客](https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/)
-* [How to use Hexo and deploy to GitHub Pages](https://gist.github.com/btfak/18938572f5df000ebe06fbd1872e4e39)
+
 ---
 
 ## Communities
