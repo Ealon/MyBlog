@@ -6,9 +6,9 @@ tag:
  - github-pages
  - blog
 photos:
- - http://bobochen.com/images/2015/hexo_github.png
+ - https://ealon.github.io/images/2017/August/hexo_github.png
 ---
-![](http://bobochen.com/images/2015/hexo_github.png)
+![](https://ealon.github.io/images/2017/August/hexo_github.png)
 ## 1. Create your Github Pages
 Follow this [intro](https://pages.github.com/) to set up your Github Pages. For example, I created my own repo [ealon.github.io](https://ealon.github.io/).
 
