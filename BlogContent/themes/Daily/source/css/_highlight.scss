@@ -1,11 +1,16 @@
 /*
  * From https://github.com/pinggod/hexo-theme-apollo/blob/master/source/scss/_partial/post.scss
  */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 code,
 pre {
-    font-size: 0.8em;
-    background-color: #f8f8f8;
-    font-family: 'Roboto Mono', Monaco, courier, monospace;
+    font-size: 0.9em;
+    background-color: #333636;
+    font-family: 'Source Code Pro', 'Roboto Mono', Monaco, courier, monospace;
+    border-left: solid 0.3em #777;
 }
 
 code {
@@ -17,6 +22,7 @@ code {
 pre {
   .line {
     min-height: 1em;
+    color: #fff;    
   }
 }
 
