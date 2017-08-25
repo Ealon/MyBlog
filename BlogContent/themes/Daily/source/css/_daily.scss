@@ -317,13 +317,14 @@ Content
   }
 }
 .entry-title {
-  font-family: -apple-system, BlinkMacSystemFont,"Helvetica Neue","PingFang-SC-Regular","STHeiti", "Helvetica","Arial","Verdana","sans-serif","Microsoft YaHei";
-  letter-spacing: 0.2em;
+  font-family: Lato ,-apple-system, BlinkMacSystemFont,"Helvetica Neue","PingFang-SC-Regular","STHeiti", "Helvetica","Arial","Verdana","sans-serif","Microsoft YaHei";
+  letter-spacing: 0.1em;
   color: #000;
   text-align: center;
   margin-bottom: 27px;
   font-weight: 700;
   font-size: 1.25em;
+  cursor: default;
   a {
     color: #000;
     font-weight: 700;
@@ -440,6 +441,7 @@ Footer
   letter-spacing: 0.2em;
   margin: 0 0 20px;
   text-align: center;
+  cursor: default;
 }
 .widget-text {
   input[type="text"] {
