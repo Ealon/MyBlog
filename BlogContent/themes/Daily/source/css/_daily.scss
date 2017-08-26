@@ -309,9 +309,11 @@ Content
   padding: 0 50px;
 }
 .attachment-post-thumbnail {
-  margin: 0 auto 35px;
+  margin: 0 auto 1em;
   transition: opacity 0.7s;
   display: block;
+  max-height: 200px;
+  max-width: 300px;
   &:hover {
     opacity: 0.7;
   }
