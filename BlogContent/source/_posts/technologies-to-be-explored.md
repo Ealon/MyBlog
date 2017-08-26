@@ -6,9 +6,9 @@ tags:
  - react-native
  - javascript
 photos:
- - https://ealon.github.io/images/2017/August/technologies.png
+ - https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2017/August/technologies.png
 ---
-![](https://ealon.github.io/images/2017/August/technologies.png)
+![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2017/August/technologies.png)
 ## Technologies to be explored:
 * [immutable.js](https://facebook.github.io/immutable-js/)
 * [Hexo](https://hexo.io/docs/)
