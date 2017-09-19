@@ -41,7 +41,13 @@ photos:
 * [Authentication in React Applications, Part 1: Creating Components](https://vladimirponomarev.com/blog/authentication-in-react-apps-creating-components)
 * [React Authentication is Easy with Auth0](https://davidwalsh.name/react-authentication)
 * [Griddle](https://github.com/GriddleGriddle/Griddle) - An ultra customizable datagrid component for React
+* [The Hackathon Toolbox - Essential Tools and Practices](https://www.thecodeship.com/general/hackathon-toolbox-essential-tools-practices/)
 
+## Tutorials
+* [Express Tutorial Part 3: Using a Database (with Mongoose)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
+* [Higher-Order Components](https://facebook.github.io/react/docs/higher-order-components.html)
+* [MongoDB Node.js Driver Documentation](http://mongodb.github.io/node-mongodb-native/2.2/tutorials/crud/)
+* [MongoDB compass](https://www.mongodb.com/products/compass)
 ---
 
 ## Communities
