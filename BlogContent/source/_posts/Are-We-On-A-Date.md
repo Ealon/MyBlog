@@ -1,16 +1,16 @@
 ---
 title: Are We On A Date?!
 tags:
-  - null
-categories:
-  - null
+  - wongfu
+  - english
+  - script
 photos:
   - https://i.ytimg.com/vi/xvaCcCveDa0/hqdefault.jpg
-description: description about this page
 date: 2017-09-19 18:17:43
 ---
+> Click the picture below to watch this video on YouTube. (Wongfu Production)
 
-![](https://i.ytimg.com/vi/xvaCcCveDa0/hqdefault.jpg)
+[![](https://i.ytimg.com/vi/xvaCcCveDa0/hqdefault.jpg)](https://www.youtube.com/watch?v=xvaCcCveDa0&t=280s)
 ### Are We On A Date?!
 - What’s up everyone? In the spirit of Graphic Stocks’s Creator 2 Creator initiative. Here is what we made with our GraphicStock subscription.
 - Hope you enjoy it.

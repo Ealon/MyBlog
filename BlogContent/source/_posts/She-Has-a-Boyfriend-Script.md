@@ -6,11 +6,11 @@ tags:
 - wongfu
 - script
 photos:
- - https://i.ytimg.com/vi/I1L9-YALU6s/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDDF1FP95P72CRijhKkaH56wSo6nA
+ - https://i.ytimg.com/vi/I1L9-YALU6s/hqdefault.jpg
 ---
 > Click the picture below to watch this video on YouTube. (Wongfu Production)
 
-[![She Has a Boyfriend](https://i.ytimg.com/vi/I1L9-YALU6s/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDDF1FP95P72CRijhKkaH56wSo6nA)](https://www.youtube.com/watch?v=I1L9-YALU6s)
+[![She Has a Boyfriend](https://i.ytimg.com/vi/I1L9-YALU6s/hqdefault.jpg)](https://www.youtube.com/watch?v=I1L9-YALU6s)
 
 ---
 ### Scripts
