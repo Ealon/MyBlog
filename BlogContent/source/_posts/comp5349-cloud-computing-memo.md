@@ -105,7 +105,7 @@ Hadoop has grown into a large ecosystem since its launch in 2006. The core of Ha
    ```
    ***The login script will be executed each time a new terminal window is opened.*** If you want the login script to take immediate effect in the current terminal window, run source .profile
    
-   ![](http://localhost:5000/Screenshot%20from%202018-04-14%2016-03-22.png)
+   ![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2018/Apr/Screenshot%20from%202018-04-14%2016-03-22.png)
 5. The script refers to several directories not yet exist. In particular, it specifies:
    * Hadoop should look for configuration files in a directory `comp5349/hadoop-conf` under your home directory.
    * Both Hadoop and YARN and history servers should write log files in a directory `comp5349/hadoop-logs` under your home directory.
@@ -188,8 +188,8 @@ Hadoop has grown into a large ecosystem since its launch in 2006. The core of Ha
     $HADOOP_HOME/sbin/start-dfs.sh
     ```
     Check that HDFS is successfully started by visiting the HDFS Web UI http://localhost:50070/ in your browser, you should be able to see something similar to the pictures below
-    ![](http://localhost:5000/50070_1.png)
-    ![](http://localhost:5000/50070_2.png)
+    ![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2018/Apr/50070_1.png)
+    ![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2018/Apr/50070_2.png)
 
 7. A few directories need to be prepared for executing Hadoop jobs:
     ```
@@ -201,7 +201,7 @@ Hadoop has grown into a large ecosystem since its launch in 2006. The core of Ha
     $HADOOP_HOME/sbin/start-yarn.sh
     ```
     To check that YARN has been started successfully, visit the YARN WebUI at http://localhost:8088/ in your browser. You will see an output similar to
-    ![](http://localhost:5000/Screenshot%20from%202018-04-14%2017-20-21.png)
+    ![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2018/Apr/Screenshot%20from%202018-04-14%2017-20-21.png)
 9. Create a directory on HDFS to save application logs
     ```
     hdfs dfs -mkdir -p /var/log/hadoop-yarn/apps
@@ -216,7 +216,7 @@ Hadoop has grown into a large ecosystem since its launch in 2006. The core of Ha
     ```
     hdfs dfs -put ~/comp5349/lab_commons/data/place.txt place.txt
     ```
-    ![](http://localhost:5000/Screenshot%20from%202018-04-14%2017-26-49.png)
+    ![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2018/Apr/Screenshot%20from%202018-04-14%2017-26-49.png)
 
 11. The following command runs the grep example on place.txt to look for all records with the word “Australia” in it
     ```
@@ -227,8 +227,8 @@ Hadoop has grown into a large ecosystem since its launch in 2006. The core of Ha
     placeout \
     "/Australia[\d\w\s\+/]+"
     ```
-    ![](http://localhost:5000/Screenshot%20from%202018-04-14%2017-29-37.png)
-    ![](http://localhost:5000/Screenshot%20from%202018-04-14%2017-31-07.png)
+    ![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2018/Apr/Screenshot%20from%202018-04-14%2017-29-37.png)
+    ![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2018/Apr/Screenshot%20from%202018-04-14%2017-31-07.png)
 
 12. To stop all services, run 
     ```
