@@ -32,6 +32,12 @@ photos:
 * [Flipboard/react-canvas](https://github.com/Flipboard/react-canvas) - High performance \<canvas\> rendering for React components
 * [chenglou/react-motion](https://github.com/chenglou/react-motion) - A spring that solves your animation problems.
 * [Yoga, a cross-platform layout engine](https://facebook.github.io/yoga/)
+* [JWT JSON web token](https://jwt.io/)
+* [tymondesigns/jwt-auth](https://github.com/tymondesigns/jwt-auth)
+* [google/google-api-nodejs-client](https://github.com/google/google-api-nodejs-client)
+* [shieldfy/API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist)
+* [rt2zz/redux-persist](https://github.com/rt2zz/redux-persist)
+
 ---
 ## Articles
 * [ReactJS Authentication Tutorial](https://auth0.com/blog/reactjs-authentication-tutorial/)
@@ -42,12 +48,31 @@ photos:
 * [React Authentication is Easy with Auth0](https://davidwalsh.name/react-authentication)
 * [Griddle](https://github.com/GriddleGriddle/Griddle) - An ultra customizable datagrid component for React
 * [The Hackathon Toolbox - Essential Tools and Practices](https://www.thecodeship.com/general/hackathon-toolbox-essential-tools-practices/)
+* [A Beginner's Guide to Using the Application Cache](https://www.html5rocks.com/en/tutorials/appcache/beginner/) - 中文版 [应用缓存初级使用指南](https://www.html5rocks.com/zh/tutorials/appcache/beginner/)
+* [Service Workers: an Introduction](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers)
+* [JWT Authentication with React + Redux](http://www.thegreatcodeadventure.com/jwt-authentication-with-react-redux/)
+* [HTTP状态码 HTTP Status Code](https://zh.wikipedia.org/wiki/HTTP%E7%8A%B6%E6%80%81%E7%A0%81)
+* [JavaScript与有限状态机](http://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html)
+* [箭头函数 Arrow functions](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* [看懂UML类图和时序图](https://design-patterns.readthedocs.io/zh_CN/latest/read_uml.html)
+* [观察者模式](http://www.runoob.com/design-pattern/observer-pattern.html)
+* [为什么要用 redux-persist](https://juejin.im/entry/57cac7b167f3560057bb00a7)
+* [React - 修改children(上)](https://segmentfault.com/a/1190000004393776) - using cloneElement
+* [React中props.children和React.Children的区别](http://www.cnblogs.com/darrenji/p/5650410.html) - using cloneElement
+* [Building a File Uploader with NodeJs](https://coligo.io/building-ajax-file-uploader-with-node/)
+
+---
+
 
 ## Tutorials
 * [Express Tutorial Part 3: Using a Database (with Mongoose)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 * [Higher-Order Components](https://facebook.github.io/react/docs/higher-order-components.html)
 * [MongoDB Node.js Driver Documentation](http://mongodb.github.io/node-mongodb-native/2.2/tutorials/crud/)
 * [MongoDB compass](https://www.mongodb.com/products/compass)
+* [<img src='https://camo.githubusercontent.com/f28b5bc7822f1b7bb28a96d8d09e7d79169248fc/687474703a2f2f692e696d6775722e636f6d2f4a65567164514d2e706e67' width='150'/>](http://redux.js.org/)
+* [<img src='https://facebook.github.io/react/img/logo.svg' width='50'/> React](https://facebook.github.io/react/docs/hello-world.html)
+* [<img src='https://facebook.github.io/react/img/logo.svg' width='50'/> React Native](https://facebook.github.io/react-native/docs/getting-started.html)
+
 ---
 
 ## Communities

@@ -26,3 +26,7 @@ tags:
   * Go straight ahead.
   * The first/next intersection is Broadway.
   * You can turn left or right.
+
+* in large part/measure, to a great extent
+  * "the success of the conference was due in large part to its organizers"
+* Can I have the bill/check, please?
