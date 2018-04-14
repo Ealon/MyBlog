@@ -298,7 +298,8 @@ Content
   position: relative;
 }
 .container {
-  max-width: $container-width;
+  width: $container-width;
+  maxWidth: 1000px;
   margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;

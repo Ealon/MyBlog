@@ -20,6 +20,7 @@ highlight:
 # nav #
 nav:
   HOME: .
+  MY APP: myapp
   ARCHIVE: archives
   # about: about
   # rss: atom.xml
