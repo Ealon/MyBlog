@@ -17,7 +17,7 @@ Welcome to [Hexo](https://hexo.io/)! This is my very first post. Check [document
 ### Create a new post
 
 ``` bash
-$ hexo new "My New Post"
+$ hexo new "My-New-Post"
 ```
 
 More info: [Writing](https://hexo.io/docs/writing.html)
@@ -39,7 +39,7 @@ photos:
 ---
 ```
 > Notice:
-> * There shouldn't be **space** in the post name when creating one.
+> * There shouldn't be **space** in the post name when creating one, use **`-`** instead.
 > * Remember to remove the **`-`** from the title of post.
 > * There shouldn't be **space** in a tag's name as well, use **`-`** instead.
 
