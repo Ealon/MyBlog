@@ -10,6 +10,7 @@ photos:
 ---
 ![](https://raw.githubusercontent.com/Ealon/ealon.github.io/master/images/2017/August/technologies.png)
 ## Technologies to be explored:
+* [react-boilerplate/react-boilerplate](https://github.com/react-boilerplate/react-boilerplate)
 * [immutable.js](https://facebook.github.io/immutable-js/)
 * [Hexo](https://hexo.io/docs/)
 * [mongoose.js](http://mongoosejs.com/)
@@ -40,6 +41,7 @@ photos:
 
 ---
 ## Articles
+* [如何学习React](https://github.com/petehunt/react-howto/blob/master/README-zh.md)
 * [ReactJS Authentication Tutorial](https://auth0.com/blog/reactjs-authentication-tutorial/)
 * [Build a React Application with User Authentication in 15 Minutes](https://developer.okta.com/blog/2017/03/30/react-okta-sign-in-widget)
 * [Adding Login and Authentication Sections to your React or React Native app](https://medium.com/the-many/adding-login-and-authentication-sections-to-your-react-or-react-native-app-7767fd251bd1)

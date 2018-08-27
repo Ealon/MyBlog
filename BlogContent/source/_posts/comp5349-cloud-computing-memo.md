@@ -242,4 +242,112 @@ Hadoop has grown into a large ecosystem since its launch in 2006. The core of Ha
     ```
     hdfs dfs -put ~/comp5349/lab_commons/data/partial.txt partial.txt
     ```
-2. 
+2. Use Uni's python_resources week4. This folder contains two implementations of counting tags used by users task:
+
+* **native**: this folder contains an naive implementation, containing only the map and reduce phase. `tag_driver.sh` is a simple script provided as an example of using streaming API. It takes two arguments: the ***input file*** and the ***output path***. Below is an example:
+
+	```
+	tag_driver.sh partial.txt out
+	```
+    > before executing, make sure that `tag_driver.sh` is executable by running
+    >```
+        chmod a+x tag_driver.sh 
+    ```
+    The output in terminal is
+    ```
+    18/04/14 23:26:18 WARN streaming.StreamJob: -file option is deprecated, please use generic option -files instead.
+    packageJobJar: [tag_mapper.py, tag_reducer.py, /tmp/hadoop-unjar6850475693049103585/] [] /tmp/streamjob1779370246496388406.jar tmpDir=null
+    18/04/14 23:26:19 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+    18/04/14 23:26:19 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+    18/04/14 23:26:20 INFO mapred.FileInputFormat: Total input files to process : 1
+    18/04/14 23:26:20 INFO mapreduce.JobSubmitter: number of splits:2
+    18/04/14 23:26:20 INFO Configuration.deprecation: yarn.resourcemanager.system-metrics-publisher.enabled is deprecated. Instead, use yarn.system-metrics-publisher.enabled
+    18/04/14 23:26:21 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1523708485184_0001
+    18/04/14 23:26:21 INFO impl.YarnClientImpl: Submitted application application_1523708485184_0001
+    18/04/14 23:26:21 INFO mapreduce.Job: The url to track the job: http://yilong:8088/proxy/application_1523708485184_0001/
+    18/04/14 23:26:21 INFO mapreduce.Job: Running job: job_1523708485184_0001
+    18/04/14 23:26:29 INFO mapreduce.Job: Job job_1523708485184_0001 running in uber mode : false
+    18/04/14 23:26:29 INFO mapreduce.Job:  map 0% reduce 0%
+    18/04/14 23:26:36 INFO mapreduce.Job:  map 100% reduce 0%
+    18/04/14 23:26:43 INFO mapreduce.Job:  map 100% reduce 33%
+    18/04/14 23:26:45 INFO mapreduce.Job:  map 100% reduce 67%
+    18/04/14 23:26:46 INFO mapreduce.Job:  map 100% reduce 100%
+    18/04/14 23:26:46 INFO mapreduce.Job: Job job_1523708485184_0001 completed successfully
+    18/04/14 23:26:46 INFO mapreduce.Job: Counters: 50
+        File System Counters
+            FILE: Number of bytes read=7481
+            FILE: Number of bytes written=1042039
+            FILE: Number of read operations=0
+            FILE: Number of large read operations=0
+            FILE: Number of write operations=0
+            HDFS: Number of bytes read=10910
+            HDFS: Number of bytes written=5603
+            HDFS: Number of read operations=15
+            HDFS: Number of large read operations=0
+            HDFS: Number of write operations=6
+        Job Counters 
+            Killed reduce tasks=1
+            Launched map tasks=2
+            Launched reduce tasks=3
+            Data-local map tasks=2
+            Total time spent by all maps in occupied slots (ms)=8670
+            Total time spent by all reduces in occupied slots (ms)=16392
+            Total time spent by all map tasks (ms)=8670
+            Total time spent by all reduce tasks (ms)=16392
+            Total vcore-milliseconds taken by all map tasks=8670
+            Total vcore-milliseconds taken by all reduce tasks=16392
+            Total megabyte-milliseconds taken by all map tasks=8878080
+            Total megabyte-milliseconds taken by all reduce tasks=16785408
+        Map-Reduce Framework
+            Map input records=73
+            Map output records=331
+            Map output bytes=6801
+            Map output materialized bytes=7499
+            Input split bytes=194
+            Combine input records=0
+            Combine output records=0
+            Reduce input groups=233
+            Reduce shuffle bytes=7499
+            Reduce input records=331
+            Reduce output records=233
+            Spilled Records=662
+            Shuffled Maps =6
+            Failed Shuffles=0
+            Merged Map outputs=6
+            GC time elapsed (ms)=698
+            CPU time spent (ms)=5690
+            Physical memory (bytes) snapshot=1175052288
+            Virtual memory (bytes) snapshot=9947533312
+            Total committed heap usage (bytes)=761790464
+        Shuffle Errors
+            BAD_ID=0
+            CONNECTION=0
+            IO_ERROR=0
+            WRONG_LENGTH=0
+            WRONG_MAP=0
+            WRONG_REDUCE=0
+        File Input Format Counters 
+            Bytes Read=10716
+        File Output Format Counters 
+            Bytes Written=5603
+    18/04/14 23:26:46 INFO streaming.StreamJob: Output directory: out
+    ```
+
+* __combiner__: this folder contains the version using combiner. You will notice that the mapper implementation (*tag_mapper.py*) is quite similar, the only difference is the output format. In the naive version, we have 
+
+	```python
+	print("{}\t{}".format(tag, username))
+	```
+	and in the combiner version, we have 
+
+	```python	
+	print("{}\t{}=1".format(tag, username))
+	```
+	The reducer implementations also reflect the changed input value part.  We also provide a script *tag_driver_combiner.sh* showing you how to indicate combiner with option *-combiner* followed by the actual combiner script, which is also the reducer script *tag_reducer.py*. The usage of *tag_driver_combiner.sh* is exactly the same as *tag_driver.sh*. Below is an example:
+
+	```
+	tag_combiner_driver.sh partial.txt out_combiner
+	```
+
+To find out more about various options for use in hadoop streaming, see [Hadoop Streaming](http://hadoop.apache.org/docs/current/hadoop-streaming/HadoopStreaming.html)
+

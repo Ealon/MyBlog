@@ -33,7 +33,14 @@ A quick guide to go through the configuration of a new installed Ubuntu
   > Note: Omit --global to set the identity only in this repository.
   
 * **Sogou** input (*note it's not 'sougou'*)
-* 
+* MongoDB
+
+  Instruction: https://docs.mongodb.com/master/tutorial/install-mongodb-on-ubuntu/?_ga=2.133311114.58096948.1524446650-542160665.1524034899
+  > About glibc, using:
+  >  ```
+  >  ldd --version
+  >  ```
+  > to check it out
 
 ## 2. Basic configuration
 * Settings-> Time & Date -> Clock
